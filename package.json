@@ -1,0 +1,19 @@
+{
+  "name": "wordaskill",
+  "version": "1.0.0",
+  "description": "alexa game skill with which you can play game of words.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "keywords": [
+    "alexa",
+    "words"
+  ],
+  "author": "dev khatri",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-sdk": "^1.0.25",
+    "express": "^4.16.3"
+  }
+}
