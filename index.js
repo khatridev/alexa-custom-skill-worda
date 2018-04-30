@@ -290,8 +290,7 @@ const alexaTurnModeHandlers = Alexa.CreateStateHandler(states.RETURNMODE, {
 
                         // if word spoken by user starts with a wrong charcater
 
-                        this.response.speak("<say-as interpret-as=\"interjection\">oh dear</say-as> <s>Wrong word.</s> <s>I won.</s> <s> Better luck next time</s>").listen();
-                        this.handler.state = states.STARTMODE;
+                        this.response.speak("<say-as interpret-as=\"interjection\">oh dear</say-as> <s>Wrong word.</s> <s>I won.</s> <s> Better luck next time</s>");
                         this.emit(':responseReady');
                     }
 
